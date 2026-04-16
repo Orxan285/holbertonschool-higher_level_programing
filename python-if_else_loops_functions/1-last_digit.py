@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 numberLast = number % 10
 
 if number < 0:
-    numberLast = -(abs(number)%10)
+    numberLast = -(abs(number) % 10)
 if numberLast > 5:
     text = "and is greater than 5"
 elif numberLast == 0:
