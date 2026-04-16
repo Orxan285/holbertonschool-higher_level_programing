@@ -11,4 +11,4 @@ elif numberLast == 0:
     text = "and is 0"
 else:
     text = "and is less than 6 and not 0"
-print(f"last digit of {number} is {numberLast} {text}")
+print(f"Last digit of {number} is {numberLast} {text}")
